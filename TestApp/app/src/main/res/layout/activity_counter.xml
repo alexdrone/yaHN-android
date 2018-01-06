@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexusbergo.testapp.com.example.alexusbergo.yahn.FeedActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flexDirection="column"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/stories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</android.support.constraint.ConstraintLayout>
