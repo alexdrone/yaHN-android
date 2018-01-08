@@ -57,7 +57,6 @@ public class FeedActivity extends AppCompatActivity implements Collection.Observ
     onStateChange();
   }
 
-  @SuppressLint("DefaultLocale")
   protected void onStateChange() {
     RecyclerView stories = (RecyclerView) findViewById(R.id.stories);
     stories.getAdapter().notifyDataSetChanged();
